@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import './globals.scss';
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 620px;
+    width: 100%;
+    margin: 100px auto;
+    }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 264px;
+    width: 100%;
+    height: 275px;
+    box-shadow: 0px 8px 15px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+}
+.main__card {
+        background-color: #34D495;
+}
+
+.main__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 216px;
+    width: 100%;
+    gap: 4px;
+}
+.main__title-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 216px;
+    width: 100%;
+    height: 55px;
+}
+
+.main__star-icon {
+    width: 55px;
+    height: 55px;
+}
+
+.title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+}
+
+.main__title {
+    color: $color-white;
+}
+
+.main__title_gray {
+    color: $color-gray;
+}
+
+.requirements {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.main__requirements-list {
+    color: $color-white;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    max-width: 216px;
+    align-items: flex-end;
+}
+
+.main__requirements-list_gray {
+    color: $color-gray;
+}
+
+.text {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.check {
+    width: 18px;
+}
+
+.circle {
+    width: 13px;
+}
+
+.main__requirements-item {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.main__turnover {
+    color: $color-white;
+}
+
+.main__turnover_gray {
+    color: $color-gray;
+}
+
+.turnover {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;  
+}
+
+@media (max-width: 576px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+  }
