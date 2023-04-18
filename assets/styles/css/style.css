@@ -755,6 +755,7 @@ template {
 
 .main__requirements-list_gray {
   color: #838383;
+  min-height: 115px;
 }
 
 .text {
